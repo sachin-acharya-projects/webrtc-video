@@ -1,0 +1,13 @@
+{
+    "name": "webrtc-video",
+    "displayName": "Video Communication",
+    "private": true,
+    "scripts": {
+        "server": "cd ./server && bun run",
+        "client": "cd ./client && bun run"
+    },
+    "workspaces": [
+        "./client",
+        "./server"
+    ]
+}
