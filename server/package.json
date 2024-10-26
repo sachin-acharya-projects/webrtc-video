@@ -1,0 +1,35 @@
+{
+    "name": "server",
+    "version": "0.0.0",
+    "description": "WebRTC signalling server.",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "bun --hot ./src/index.ts",
+        "build": "bun build ./src/index.ts --outdir dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sachin-acharya-projects/webrtc-cal.git"
+    },
+    "keywords": [
+        "webrtc",
+        "video-conference"
+    ],
+    "author": "Sachin Acharya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sachin-acharya-projects/webrtc-cal/issues"
+    },
+    "homepage": "https://github.com/sachin-acharya-projects/webrtc-cal#readme",
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.7.9",
+        "tsx": "^4.19.1",
+        "typescript": "^5.6.3"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.1",
+        "socket.io": "^4.8.0"
+    }
+}
